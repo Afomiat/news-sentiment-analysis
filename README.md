@@ -24,25 +24,25 @@ news-sentiment-analysis/
 ├── src/                      # Source modules
 ├── scripts/                  # Standalone analysis scripts
 └── tests/                    # Unit tests
-```
+# Financial News Sentiment Analysis
 
-## Setup
+Predict stock price moves by analyzing the sentiment of financial news headlines. This project builds a rigorous analytical pipeline to quantify market narratives and link them to stock price action.
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/Afomiat/news-sentiment-analysis.git
-cd news-sentiment-analysis
+## 🚀 Project Status: Task 1 Complete
+We have completed the Exploratory Data Analysis (EDA) phase, identifying news spikes, publisher activity, and common headline themes.
 
-# 2. Create and activate virtual environment
-python -m venv venv
-# Windows:
-.\venv\Scripts\Activate.ps1
-# Linux/Mac:
-source venv/bin/activate
+## 📂 Project Structure
+- `.github/`: CI/CD workflows.
+- `data/`: Raw and processed financial datasets.
+- `notebooks/`: Jupyter notebooks for EDA and Sentiment Analysis.
+- `scripts/`: Modular Python scripts for data processing and visualization.
+- `tests/`: Unit tests for ensuring code reliability.
 
-# 3. Install dependencies
-pip install -r requirements.txt
-```
+## 🛠️ Installation
+1. Clone the repository: `git clone <repo-url>`
+2. Create a virtual environment: `python -m venv venv`
+3. Activate it: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Linux/Mac)
+4. Install dependencies: `pip install -r requirements.txt`
 
 ## Running the Notebooks
 
@@ -62,12 +62,10 @@ Place raw CSV files in `data/raw/`. These are **git-ignored** to avoid committin
 - `raw_analyst_ratings.csv` — Financial news headlines dataset
 - `<TICKER>.csv` — Historical stock price files (one per stock)
 
-## Tasks
-
 | Task | Branch | Status |
 |------|--------|--------|
-| Task 1: EDA & Environment Setup | `task-1` | 🔄 In Progress |
-| Task 2: Technical Indicators | `task-2` | ⏳ Pending |
+| Task 1: EDA & Environment Setup | `task-1` | ✅ Complete |
+| Task 2: Sentiment Analysis | `task-2` | 🔄 In Progress |
 | Task 3: Correlation Analysis | `task-3` | ⏳ Pending |
 
 ## Author
