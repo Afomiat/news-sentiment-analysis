@@ -17,6 +17,9 @@ gensim>=4.3.0
 # Financial data & indicators
 yfinance>=0.2.28
 pynance>=0.3.0
+ta-lib>=0.4.28
+mplfinance>=0.12.10b0
+pandas_market_calendars>=4.1.4
 
 # Jupyter
 jupyter>=1.0.0

@@ -28,14 +28,14 @@ news-sentiment-analysis/
 
 Predict stock price moves by analyzing the sentiment of financial news headlines. This project builds a rigorous analytical pipeline to quantify market narratives and link them to stock price action.
 
-## 🚀 Project Status: Task 1 Complete
-We have completed the Exploratory Data Analysis (EDA) phase, identifying news spikes, publisher activity, and common headline themes.
+## 🚀 Project Status: Task 3 Pending
+We have completed Task 1 (EDA) and Task 2 (Quantitative Analysis using TA-Lib). We are now moving towards correlation analysis.
 
 ## 📂 Project Structure
 - `.github/`: CI/CD workflows.
 - `data/`: Raw and processed financial datasets.
 - `notebooks/`: Jupyter notebooks for EDA and Sentiment Analysis.
-- `scripts/`: Modular Python scripts for data processing and visualization.
+- `scripts/`: Modular Python scripts (EDA, Sentiment Utilities).
 - `tests/`: Unit tests for ensuring code reliability.
 
 ## 🛠️ Installation
@@ -65,7 +65,7 @@ Place raw CSV files in `data/raw/`. These are **git-ignored** to avoid committin
 | Task | Branch | Status |
 |------|--------|--------|
 | Task 1: EDA & Environment Setup | `task-1` | ✅ Complete |
-| Task 2: Sentiment Analysis | `task-2` | 🔄 In Progress |
+| Task 2: Quantitative Analysis (TA-Lib) | `task-2` | ✅ Complete |
 | Task 3: Correlation Analysis | `task-3` | ⏳ Pending |
 
 ## Author
