@@ -8,6 +8,10 @@ This directory contains Jupyter notebooks used for data exploration, visualizati
     - Headline length and word count distribution.
     - Most common keywords and N-grams.
     - Publisher activity and domain extraction.
+- `task2_stock_analysis.ipynb`: Quantitative Analysis using TA-Lib.
+    - Technical indicators: SMA, EMA, RSI, MACD.
+    - Financial metrics: Daily returns, Sharpe Ratio, Rolling Volatility.
+    - Multi-panel stock price visualizations.
 
 ## Usage
 To run the notebooks, ensure you have activated your virtual environment and run:
