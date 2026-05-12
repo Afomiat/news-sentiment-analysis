@@ -12,6 +12,10 @@ This directory contains Jupyter notebooks used for data exploration, visualizati
     - Technical indicators: SMA, EMA, RSI, MACD.
     - Financial metrics: Daily returns, Sharpe Ratio, Rolling Volatility.
     - Multi-panel stock price visualizations.
+- `task3_correlation_analysis.ipynb`: Sentiment & Stock Correlation.
+    - VADER sentiment vs Daily Returns.
+    - Pearson correlation statistics per ticker.
+    - Regression plots and categorical return analysis.
 
 ## Usage
 To run the notebooks, ensure you have activated your virtual environment and run:
